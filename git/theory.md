@@ -360,3 +360,10 @@ tes src/level1/level2/f.txt
 
 * [git常用操作集锦](https://github.com/lizongze/lizongze.github.io/blob/master/git/shell.md)
 
+
+
+#### references
+
+* [放弃理解Git（一）：Git 内部原理](https://zhuanlan.zhihu.com/p/53750883)
+* [这才是真正的Git——Git内部原理揭秘！](https://zhuanlan.zhihu.com/p/96631135)
+
