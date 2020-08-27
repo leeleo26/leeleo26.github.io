@@ -6,6 +6,6 @@
 
 *	#### [从零开始设计一个git](https://github.com/lizongze/lizongze.github.io/blob/master/git_theory.md)
 
-* #### [git常用操作集锦](#https://github.com/lizongze/lizongze.github.io/blob/master/git_shell.md)
+* #### [git常用操作集锦](https://github.com/lizongze/lizongze.github.io/blob/master/git_shell.md)
 
 
