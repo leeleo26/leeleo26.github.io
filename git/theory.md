@@ -355,3 +355,8 @@ tes src/level1/level2/f.txt
 * 我一个人能解决merge时的冲突 * **10**
 
 
+
+#### git常用操作集锦
+
+* [git常用操作集锦](https://github.com/lizongze/lizongze.github.io/blob/master/git/shell.md)
+
