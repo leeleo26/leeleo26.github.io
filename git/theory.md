@@ -208,22 +208,22 @@ blob
 ```shell
 ➜  front-theory git:(bug/21244-msgfile) ✗ git log -1
 
-commit c6dc74c0880891381e41540a2b898275eaf18eed (HEAD -> bug/21244-msgfile, origin/bug/21244-msgfile)
-Author: zongze.li <zongze.li@q7link.com>
+commit c6dc74c0880891381e41540a2b898275eaf18eed (HEAD -> learn, origin/learn)
+Author: zongze.li
 Date:   Thu Aug 27 12:47:42 2020 +0800
 
-    <bug-21244>fix: 上传超过50M的文件并查看，跳转文件详情失败，直接退回到单据详情
+    commit message
 
 ➜  front-theory git:(bug/21244-msgfile) ✗ git cat-file -p c6dc74c0880891381e41540a2b898275eaf18eed
 
 tree c3d3f232e10011aefa41ac850fc34f726ae0c798
 parent 435ef1546afd65369368c618581dd643a7a3bd40
-author zongze.li <zongze.li@q7link.com> 1598503662 +0800
-committer zongze.li <zongze.li@q7link.com> 1598503662 +0800
+author zongze.li  1598503662 +0800
+committer zongze.li  1598503662 +0800
 
-<bug-21244>fix: 上传超过50M的文件并查看，跳转文件详情失败，直接退回到单据详情
+    commit message
 
-➜  front-theory git:(bug/21244-msgfile) ✗ git cat-file -p c3d3f2
+➜  front-theory git:(learn) ✗ git cat-file -p c3d3f2
 
 100644 blob 8bab3ff7089b109606ebf78ec7ad2e6c673e09c4	.dockerignore
 100644 blob 530ca350dcbfb569b5abbf9a3721c1fcd34e2d61	.editorconfig
