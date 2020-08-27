@@ -206,7 +206,7 @@ blob
 
 
 ```shell
-➜  front-theory git:(bug/21244-msgfile) ✗ git log -1
+➜  front-theory git:(learn) ✗ git log -1
 
 commit c6dc74c0880891381e41540a2b898275eaf18eed (HEAD -> learn, origin/learn)
 Author: zongze.li
@@ -214,7 +214,7 @@ Date:   Thu Aug 27 12:47:42 2020 +0800
 
     commit message
 
-➜  front-theory git:(bug/21244-msgfile) ✗ git cat-file -p c6dc74c0880891381e41540a2b898275eaf18eed
+➜  front-theory git:(learn) ✗ git cat-file -p c6dc74c0880891381e41540a2b898275eaf18eed
 
 tree c3d3f232e10011aefa41ac850fc34f726ae0c798
 parent 435ef1546afd65369368c618581dd643a7a3bd40
