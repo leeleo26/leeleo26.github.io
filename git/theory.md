@@ -125,7 +125,7 @@ interface commit {
     id: hash
     version: tree
     parent: hash // commit
-	  author: string
+    author: string
     msg: string
     time: string
     // children?: hash[] // commit[] // merge  // 后一个的追加不会影响前一个
