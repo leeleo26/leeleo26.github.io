@@ -330,7 +330,7 @@ tes src/level1/level2/f.txt
 
 
 
-#### git 常用命令解读
+#### git 常用命令解读（时光穿梭）
 
 * git add  => 将工作区的内容 添加到 暂存区 （在索引区生成索引）
 
@@ -340,30 +340,71 @@ tes src/level1/level2/f.txt
 
 * git commit => 将暂存区的文件提交到仓库（将索引区的内容生成一个快照）
 
-* git reset --soft => 将仓库某个快照撤消掉，回到暂存区
+* git reset --soft => 回退到某个快照，只回退了commit的信息，会保留已缓存的文件。
 
 
 
-* git reset --hard => 切换到某个快照 （并撤消当前所有改动）
+* git reset --hard => 强制切换到某个快照 （既回退commit信息又将文件回退到对应版本，还会撤消掉当前所有改动（清空工作区））
 
-* git checkout => 切换到某个快照 （将快照的文件取出来并和当前的改动进行merge）
+* git checkout => 切换到某个快照 （将快照的缓存文件取出来）
 
 
 
-#### git十大幻觉：
+下面这个表格总结了这些命令最常用的使用场景。记得经常对照这个表格，因为你使用 Git 时一定会经常用到。
+
+|     命令     |  作用域  | 常用情景                           |
+| :----------: | :------: | :--------------------------------- |
+|  git reset   | 提交层面 | 在私有分支上舍弃一些没有提交的更改 |
+|  git reset   | 文件层面 | 将文件从缓存区中移除               |
+| git checkout | 提交层面 | 切换分支或查看旧版本               |
+| git checkout | 文件层面 | 舍弃工作目录中的更改               |
+|  git revert  | 提交层面 | 在公共分支上回滚更改               |
+|  git revert  | 文件层面 | （然而并没有）                     |
+
+
+
+* git push
+* git push origin -d [branch]
+
+
+
+#### [代码回滚：Reset、Checkout、Revert 的选择](https://www.bookstack.cn/read/git-recipes/sources-5.2.md)
+
+
+
+#### git十大错觉
 
 * 我一个人能解决merge时的冲突 * **10**
+* 我只revert了一个分支
 
 
 
-#### git常用操作集锦
+#### [git merge原理（递归三路合并算法）](https://www.jianshu.com/p/e8932999fe1f)
 
-* [git常用操作集锦](https://github.com/lizongze/lizongze.github.io/blob/master/git/shell.md)
+
+
+#### [代码合并：Merge、Rebase 的选择](https://www.bookstack.cn/read/git-recipes/sources-5.1.md)
+
+
+
+#### [git常用操作集锦](https://github.com/lizongze/lizongze.github.io/blob/master/git/shell.md)
+
 
 
 
 #### references
 
 * [放弃理解Git（一）：Git 内部原理](https://zhuanlan.zhihu.com/p/53750883)
+
 * [这才是真正的Git——Git内部原理揭秘！](https://zhuanlan.zhihu.com/p/96631135)
+
+* [git merge原理（递归三路合并算法）](https://www.jianshu.com/p/e8932999fe1f)
+
+* [代码回滚：Reset、Checkout、Revert 的选择](https://www.bookstack.cn/read/git-recipes/sources-5.2.md)
+
+* [代码合并：Merge、Rebase 的选择](https://www.bookstack.cn/read/git-recipes/sources-5.1.md)
+
+* [git常用操作集锦](https://github.com/lizongze/lizongze.github.io/blob/master/git/shell.md)
+
+
 
