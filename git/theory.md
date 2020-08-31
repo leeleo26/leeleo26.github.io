@@ -385,6 +385,7 @@ tes src/level1/level2/f.txt
 
 #### [代码合并：Merge、Rebase 的选择](https://www.bookstack.cn/read/git-recipes/sources-5.1.md)
 
+* rebase漂亮，而merge靠谱
 
 
 #### [git常用操作集锦](https://github.com/lizongze/lizongze.github.io/blob/master/git/shell.md)
