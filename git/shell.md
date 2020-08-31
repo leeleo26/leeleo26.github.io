@@ -234,7 +234,7 @@ HEAD^
 
 #### 删除远端分支
 
-* git push origin :[branch] 删除远端分支
+* git push origin -d [branch] 删除远端分支
 
 * git remote prune origin 删除远端已经删除的分支
 
